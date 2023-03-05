@@ -1,5 +1,5 @@
 //https://school.programmers.co.kr/learn/courses/30/lessons/134240
-// STL 알고리즘 sorting을 이용하면 간단 
+
 
 #include <string>
 #include <vector>
