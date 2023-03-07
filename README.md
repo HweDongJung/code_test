@@ -1,2 +1,3 @@
 # code_test
-practice for code test
+daily practice for code test
+main language : C++
