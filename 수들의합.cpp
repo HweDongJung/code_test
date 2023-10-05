@@ -1,21 +1,22 @@
 //https://www.acmicpc.net/problem/2293
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
 int main() {
-    int n, k;
-    cin << n << k;
+    int n;
+    cin >> n;
     cin.ignore();
-    vector<int> list;
-    for(int i=0; i < n; i++){
-    int f;
-    cin << f;
-    list.pushback(f);
-    cin.ignore();
-    }
+    int total=0, answer=0;
 
+    for(int i=1; i < n; i++){
+    total +=i;
+    answer++;
+    if ( total == n ) break;
+    else if((n - total) < (i+1)) break;
+    }
+    
+    cout << answer;
 
     return 0;
 }
