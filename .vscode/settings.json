@@ -7,4 +7,7 @@
         "xtree": "cpp",
         "random": "cpp"
     }
+        "*.tcc": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "c:\\Program Files (x86)\\mingw64\\bin\\g++.exe"
 }

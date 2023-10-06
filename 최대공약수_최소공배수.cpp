@@ -11,7 +11,7 @@ int main() {
     int max, min;
     cin >> m >> n;
     
-    if(m => n) less = n;
+    if(m >= n) less = n;
     else less = m;
 
     for(int i=less;i<1;i--){
