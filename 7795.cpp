@@ -25,14 +25,16 @@ int main() {
     while(ss >> word) {
         avec.push_back(stoi(word));
     }
+    cout << avec[1] << " " << avec[2];
 
     getline(cin, s);
     ss.str(s);
     while(ss >> word) {
         bvec.push_back(stoi(word));
     }
-
+    cout << bvec[1] << " " << bvec[2];
     }
+
 
 
     
